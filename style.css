@@ -1,0 +1,36 @@
+body {
+    background-image: url(./por\ do\ sol.jpg);
+}
+
+h2 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 200px;
+    filter: drop-shadow(8px 8px 4px rgb(10, 1, 1));
+}
+
+hr {
+    filter: drop-shadow(8px 8px 4px rgb(10, 1, 1));
+}
+
+input {
+    filter: drop-shadow(8px 8px 4px rgb(61, 55, 55));
+    cursor: pointer;
+}
+
+#start {
+   background-color: rgb(105, 105, 192); 
+   color: white;
+}
+
+#stop {
+    background-color: rgb(105, 105, 192);
+    color: white;
+}
+
+  
+
