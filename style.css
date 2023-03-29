@@ -1,8 +1,11 @@
 body {
-    background-image: url(./por\ do\ sol.jpg);
+    background-image: url(por-do-sol1.jpeg);
+    background-size: cover;
+    line-height: 1;
 }
 
 h2 {
+    color: rgb(255, 255, 255);
     font-size: 40px;
     display: flex;
     justify-content: center;
@@ -23,8 +26,8 @@ input {
 }
 
 #start {
-   background-color: rgb(105, 105, 192); 
-   color: white;
+    background-color: rgb(105, 105, 192);
+    color: white;
 }
 
 #stop {
@@ -32,5 +35,8 @@ input {
     color: white;
 }
 
-  
-
+#destaque {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
