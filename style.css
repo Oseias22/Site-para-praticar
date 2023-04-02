@@ -12,14 +12,14 @@ h2 {
 }
 
 h1 {
-    font-size: 200px;
+    font-size: 50px;
     filter: drop-shadow(8px 8px 3px rgb(10, 1, 1));
 }
 
 input {
     cursor: pointer;
 }
-
+/*botões*/
 #start {
     background-color: black;
     color: white;
@@ -29,13 +29,13 @@ input {
     background-color: black;
     color: white;
 }
-
+/*esse destaque é o garoto com notebook*/
 #destaque {
     position: absolute;
     width: 150px;
     height: 150px;
 }
-
+/*icones das redes sociais*/
 img {
     width: 40px;
     cursor: pointer;
