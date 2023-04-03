@@ -1,27 +1,41 @@
 body {
-    background-image: url(por-do-sol1.jpeg);/*plano de fundo*/
+    background-image: url(por-do-sol1.jpeg);
     background-size: cover;
     line-height: 1;
 }
 
-h2 {
+h1 {
+    text-align: center;
     color: rgb(255, 255, 255);
     font-size: 40px;
-    display: flex;
-    justify-content: center;
 }
 
-h1 {
+h2 {
     font-size: 50px;
+    color: rgb(75, 8, 8);
+}
+
+h3 {
+    font-size: 80px;
     filter: drop-shadow(8px 8px 3px rgb(10, 1, 1));
 }
+
+.minha-foto{
+    width: 10rem;
+    filter: drop-shadow(8px 8px 3px rgb(10, 1, 1));
+}
+
+div a {
+    display: inline-block;
+    margin-right: 10px;
+  }
 
 input {
     cursor: pointer;
 }
-/*botões*/
+
 #start {
-    background-color: black;
+    background-color: black;/*botões*/
     color: white;
 }
 
@@ -29,13 +43,13 @@ input {
     background-color: black;
     color: white;
 }
-/*esse destaque é o garoto com notebook*/
+
 #destaque {
     position: absolute;
     width: 150px;
     height: 150px;
 }
-/*icones das redes sociais*/
+
 img {
     width: 40px;
     cursor: pointer;
