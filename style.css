@@ -20,7 +20,7 @@ h3 {
     filter: drop-shadow(8px 8px 3px rgb(10, 1, 1));
 }
 
-.minha-foto {
+.minha-foto{
     width: 10rem;
     filter: drop-shadow(8px 8px 3px rgb(10, 1, 1));
 }
@@ -28,15 +28,14 @@ h3 {
 div a {
     display: inline-block;
     margin-right: 10px;
-}
+  }
 
 input {
     cursor: pointer;
 }
 
 #start {
-    background-color: black;
-    /*botões*/
+    background-color: black;/*botões*/
     color: white;
 }
 
