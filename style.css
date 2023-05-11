@@ -17,7 +17,7 @@ h2 {
 
 h3 {
     font-size: 80px;
-    filter: drop-shadow(8px 8px 3px rgb(10, 1, 1));
+    filter: drop-shadow(8px 8px 3px #faf7f7);
 }
 
 .minha-foto{
@@ -26,7 +26,7 @@ h3 {
 }
 
 div a {
-    display: inline-block;
+    display: inline-block;/*alinhar o icones*/
     margin-right: 10px;
   }
 
@@ -45,7 +45,7 @@ input {
 }
 
 #destaque {
-    position: absolute;
+    position: absolute; /*programador*/
     width: 150px;
     height: 150px;
 }
